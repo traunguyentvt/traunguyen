@@ -1,0 +1,61 @@
+#mainNav {
+  .container {
+    max-width: 1280px;
+    margin: auto;
+  }
+
+  .logo {
+    font-size: 3.5em;
+
+    &::after {
+      content: "Senior Software Developer";
+      font-size: 10px;
+    }
+  }
+
+  .user-info {
+    cursor: pointer;
+
+    .user-icon {
+      color: white;
+      margin-left: 20px;
+      font-size: 32px;
+    }
+  }
+
+  &.navbar-b.navbar-reduce .user-info .user-icon {
+    color: #0078ff;
+  }
+
+  .popup-menu-options {
+    color: #495057;
+    font-size: 16px;
+
+    .list-group-item {
+      cursor: pointer;
+    }
+
+    .card {
+      margin-top: 35px;
+      width: 250px;
+    }
+
+    #circle-avatar {
+      display: grid;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background-color: #ffbd30;
+      place-items: center;
+
+      span {
+        font-size: 48px;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .navbar-collapse {
+    visibility: visible;
+  }
+}
