@@ -8,14 +8,14 @@
 * Amazon API Gateway
 * Amazon Lambda
 * Amazon DynamoDB
-* Amazon SES
+* Amazon SNS
 * Amazon IAM
 * Amazon CloudWatch
 * ReactJS
 
 ### Website
 
-https://www.domenic-aws.info
+https://traunguyen.click
 
 ## Available Scripts
 
