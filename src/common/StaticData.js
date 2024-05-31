@@ -222,68 +222,17 @@ const StaticData = {
     getBlogs: function () {
         return [
             {
-                organisation: "Interfacing with UIKit",
+                organisation: "Some Tips in Swift",
                 logo: uikit,
-                link: "https://developer.apple.com/tutorials/swiftui/interfacing-with-uikit",
+                link: "https://medium.com/@nguyenvanngoctrau/some-tips-in-swift-a38496124f17",
                 positions: [
                     {
-                        title: "SwiftUI works seamlessly with the existing UI frameworks on all Apple platforms. For example, you can place UIKit views and view controllers inside SwiftUI views, and vice versa.",
-                        duration: "This tutorial shows you how to convert the featured landmark from the home screen to wrap instances of UIPageViewController and UIPageControl. You’ll use UIPageViewController to display a carousel of SwiftUI views, and use state variables and bindings to coordinate data updates throughout the user interface.",
+                        duration: "Swift is a type-safe language, which means the language helps you to be clear about the types of values your code can work with. If part of your code requires a String, type safety prevents you from passing it an Int by mistake. Likewise, type safety prevents you from accidentally passing an optional String to a piece of code that requires a non-optional String. Type safety helps you catch and fix errors as early as possible in the development process.",
+                        title: "Swift is a powerful and intuitive programming language for all Apple platforms. It’s easy to get started using Swift, with a concise-yet-expressive syntax and modern features you’ll love. Swift code is safe by design and produces software that runs lightning-fast.",
                         content: [
                             {
                                 text: "Read more",
-                                link: "https://developer.apple.com/tutorials/swiftui/interfacing-with-uikit",
-                            }
-                        ],
-                    },
-                ],
-            },
-            {
-                organisation: "A brief explanation of the basics of SwiftUI",
-                logo: swift,
-                link: "https://www.hackingwithswift.com/quick-start/swiftui",
-                positions: [
-                    {
-                        title: "SwiftUI by Example is the world's largest collection of SwiftUI examples, tips, and techniques giving you almost 600 pages of hands-on code to help you build apps, solve problems, and understand how SwiftUI really works.",
-                        duration: "How to provide visual structure using foreground styles.",
-                        content: [
-                            {
-                                text: "Read more",
-                                link: "https://www.hackingwithswift.com/quick-start/swiftui",
-                            }
-                        ],
-                    },
-                ],
-            },
-            {
-                organisation: "Introducing the Benchmark Package",
-                logo: xctest,
-                link: "https://www.swift.org/blog/benchmarks",
-                positions: [
-                    {
-                        title: "Have you ever encountered a performance problem that slipped through to end users which resulted in a bug report? Do you systematically measure and validate performance metrics when making changes to your Swift package?",
-                        duration: "",
-                        content: [
-                            {
-                                text: "Read more",
-                                link: "https://www.swift.org/blog/benchmarks",
-                            }
-                        ],
-                    },
-                ],
-            },
-            {
-                organisation: "Build an iOS app with SwiftUI",
-                logo: appstore,
-                link: "https://www.swift.org/getting-started/swiftui",
-                positions: [
-                    {
-                        title: "In this tutorial you’re going to use Swift and SwiftUI to build a small app to recommend fun new activities to users. Along the way you’ll meet several of the basic components of a SwiftUI app, including text, images, buttons, shapes, stacks, and program state.",
-                        duration: "",
-                        content: [
-                            {
-                                text: "Read more",
-                                link: "https://www.swift.org/getting-started/swiftui",
+                                link: "https://medium.com/@nguyenvanngoctrau/some-tips-in-swift-a38496124f17",
                             }
                         ],
                     },
